@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txt_junina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Festa Junina"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_junina"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_junina"
+            />
+
+        <TextView
+            android:id="@+id/txt_halloween"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Halloween"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_junina" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_halloween"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_halloween" />
+
+        <TextView
+            android:id="@+id/txt_luau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Luau"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_halloween" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_luau"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_luau" />
+
+        <TextView
+            android:id="@+id/txt_natal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Natal"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_luau" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_natal"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_natal" />
+
+        <TextView
+            android:id="@+id/txt_piquenique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Piquenique"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_natal" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_piquenique"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_piquenique" />
+
+        <TextView
+            android:id="@+id/txt_infantil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:text="Infantil"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_piquenique" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_infantil"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_infantil" />
+
+
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
